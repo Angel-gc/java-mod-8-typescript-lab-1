@@ -3,5 +3,7 @@ function prepend(numSpaces: number, inputString: string) {
 	for (let i = 0; i < numSpaces; i++) {
 		inputString = ' ' + inputString;
 	}
-	return console.log(inputString);
+	return inputString;
 }
+
+console.log(prepend(5, 'hi'));
